@@ -37,19 +37,24 @@
     <div class="conatainer">
         <div class="row justify-content-center">
             <div class="col-">
-                <h2>vraag 2</h2>
+                <h2>hoeveel </h2>
                 <ul>
                     <li>antwoord 1</li>
                     <li>antwoord 2</li>
                     <li>antwoord 3</li>
-                    <li>antwoord 4</li>
+                </ul>
+                <ul class="list-group">
+                    <button><li class="list-group-item bg-success " onclick="vraagControle('juist', 'vraag3.html')">Antwoord 1</li></button>
+                    <button><li class="list-group-item bg-dark text-light " onclick="vraagControle('onjuist' , 'vraag3.html')">Antwoord 2</li></button>
+                    <button><li class="list-group-item bg-secondary"onclick="vraagControle('onjuist' , 'vraag3.html')">Antwoord 3</li></button>
                 </ul>
                 <div class="quiz"></div>
-                    <button class="submit"><a href="vraag3.html">volgende</a></button>
+                    <a class="btn btn-dark" href="vraag3.html">volgende</a>
                 <div class="results"></div>
             </div>
         </div>
     </div>
 </main>
+<script src="./js/quizvragen.js"></script>
 </body>
 </html>

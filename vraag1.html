@@ -26,7 +26,7 @@
         <div class="row justify-content-start">
             <div>
                 <ul class="my-ul">
-                    <li><a href="vraag1.html">vraag 1</a></li>
+                    <li><a href="index.html">vraag 1</a></li>
                     <li><a href="vraag2.html">vraag 2</a></li>
                     <li><a href="vraag3.html">vraag 3</a></li>
                     <li><a href="vraag4.html">vraag 4</a></li>
@@ -37,19 +37,24 @@
     <div class="conatainer">
         <div class="row justify-content-center">
             <div class="col-">
-                <h2>vraag 1</h2>
+                <h2>hoeveel jaar is deze opleiding</h2>
                 <ul>
-                    <li>antwoord 1</li>
-                    <li>antwoord 2</li>
-                    <li>antwoord 3</li>
-                    <li>antwoord 4</li>
+                    <li>antwoord 1: 3 jaar</li>
+                    <li>antwoord 2: 4 jaar</li>
+                    <li>antwoord 3: 2 jaar</li>
+                </ul>
+                <ul class="list-group">
+                    <button><li class="list-group-item bg-success " onclick="vraagControle('juist', 'vraag2.html')">Antwoord 1</li></button>
+                    <button><li class="list-group-item bg-dark text-light " onclick="vraagControle('onjuist' , 'vraag2.html')">Antwoord 2</li></button>
+                    <button><li class="list-group-item bg-secondary"onclick="vraagControle('onjuist' , 'vraag2.html')">Antwoord 3</li></button>
                 </ul>
                 <div class="quiz"></div>
-                    <button class="submit"><a href="vraag2.html">volgende</a></button>
+                    <a class="btn btn-dark" href="vraag2.html">volgende</a>
                 <div class="results"></div>
             </div>
         </div>
     </div>
 </main>
+<script src="./js/quizvragen.js"></script>
 </body>
 </html>

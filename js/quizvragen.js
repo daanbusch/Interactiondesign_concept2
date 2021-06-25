@@ -1,5 +1,5 @@
-import Player from "./player.js;";
-// inlog button maken \; prompt('vul uw naam in') new Player();
+
+let points = 0;
 
 function vraagControle(answer , nextQuestion){
     if(answer  == 'juist'){

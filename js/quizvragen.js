@@ -7,6 +7,6 @@ function vraagControle(answer , nextQuestion){
     };
     window.location.href = nextQuestion;
     
-    alert(answer + ' '+ points +' '+ nextQuestion);
+    alert(answer + ' '+ points + "punt");
 
 }
